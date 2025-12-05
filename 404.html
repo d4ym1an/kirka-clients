@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K1rk4 Cl13n75</title>
+    <style>
+        @keyframes glitch {
+            0% { transform: translate(0); }
+            20% { transform: translate(-2px, 2px); }
+            40% { transform: translate(-2px, -2px); }
+            60% { transform: translate(2px, 2px); }
+            80% { transform: translate(2px, -2px); }
+            100% { transform: translate(0); }
+        }
+        @keyframes glitch-color {
+            0% { text-shadow: -2px 0 #ff00de, 2px 0 #00ffff; }
+            50% { text-shadow: 2px 0 #ff00de, -2px 0 #00ffff; }
+            100% { text-shadow: -2px 0 #ff00de, 2px 0 #00ffff; }
+        }
+        @keyframes scanlines {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(10px); }
+        }
+        @keyframes flicker {
+            0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% { opacity: 1; }
+            20%, 24%, 55% { opacity: 0.3; }
+        }
+        
+        body {
+            font-family: Arial;
+            margin: 20px;
+            background: #0a0a0a;
+            color: #00ff00;
+            position: relative;
+            overflow-x: hidden;
+        }
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: repeating-linear-gradient(
+                0deg,
+                rgba(255, 0, 222, 0.03),
+                rgba(255, 0, 222, 0.03) 1px,
+                transparent 1px,
+                transparent 2px
+            );
+            pointer-events: none;
+            animation: scanlines 0.15s linear infinite;
+            z-index: 1;
+        }
+
+        h1 {
+            animation: glitch 0.2s infinite, glitch-color 0.3s infinite, flicker 0.15s infinite;
+            font-size: 3em;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin: 0;
+        }
+
+        p {
+            animation: flicker 0.1s infinite;
+        }
+
+        .box {
+            border: 2px solid;
+            border-color: #ff00de;
+            padding: 15px;
+            margin: 10px 0;
+            background: rgba(255, 0, 222, 0.05);
+            animation: flicker 0.08s infinite;
+            position: relative;
+            transform: skewX(-1deg);
+        }
+        .box:hover {
+            animation: glitch 0.1s infinite, flicker 0.06s infinite;
+            border-color: #00ffff;
+            box-shadow: 0 0 10px #00ffff, -5px 5px 0 #ff00de;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .header h2 {
+            margin: 0;
+            animation: glitch-color 0.3s infinite;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        img {
+            filter: hue-rotate(45deg);
+            animation: flicker 0.12s infinite;
+        }
+
+        a {
+            color: #00ffff;
+            text-decoration: none;
+            transition: all 0.1s;
+        }
+        a:hover {
+            color: #ff00de;
+            text-shadow: 0 0 10px #00ffff;
+            animation: glitch 0.1s infinite;
+        }
+
+        strong {
+            color: #ff00de;
+            text-transform: uppercase;
+            animation: flicker 0.1s infinite;
+        }
+    </style>
+</head>
+<body>
+    <h1>404... K1RK4 CL13N75</h1>
+    <p><strong>Y0u w1ll g37 7h3 l1nk 0f 7h3 cl13n75 G17HUB p4g3/w3b51t3 4nd wh0 m4d3 7h3m.</strong></p>
+    <p><strong>7h3 l157 4l50 15n'7 fr0m b357 70 w0rs3</strong></p>
+    
+    <div class="box">
+        <div class="header">
+            <img src="https://raw.githubusercontent.com/42infi/juice-client/389288c611593fa529dbfcae3b224ed9800a8b2f/src/assets/img/icon.png" width="25" alt="CokeClient Icon"/>
+            <h2>1. C0k3Cl13n7</h2>
+        </div>
+        <p>P4g3: <a href="https://github.com/42infi/juice-client">https://github.com/42infi/juice-client</a></p>
+        <p>4u7h0r: 1nf1</p>
+    </div>
+
+    <div class="box">
+        <div class="header">
+            <img src="dawncleint.png" width="25" alt="DawnClient Icon"/>
+            <h2>2. D4wn0l13n7</h2>
+        </div>
+        <p>P4g3: <a href="https://github.com/zVipexx/dawn-client">https://github.com/zVipexx/dawn-client</a></p>
+        <p>4u7h0r: 2V1p3xx</p>
+    </div>
+
+    <div class="box">
+        <div class="header">
+            <img src="https://tricko.pro/icons/redline.png" width="25" alt="RedLine Icon"/>
+            <h2>3. R3dL1n3</h2>
+        </div>
+        <p>P4g3: <a href="https://www.tricko.pro/redline">https://www.tricko.pro/redline</a></p>
+        <p>4u7h0r: R0b</p>
+    </div>
+
+    <div class="box">
+        <div class="header">
+            <img src="https://cdn.glitch.global/56a9b933-fe47-40e7-9c50-9d255f3f9e2b/CompressJPEG.Online_img(512x512).png?v=1750274132729" width="25" alt="FaintClient Icon"/>
+            <h2>4. F41n7Cl13n7</h2>
+        </div>
+        <p>P4g3: <a href="https://faintclient.xyz/">https://faintclient.xyz/</a></p>
+        <p>4u7h0r: gu4p</p>
+    </div>
+
+    <div class="box">
+        <div class="header">
+            <img src="https://raw.githubusercontent.com/skywalk1411/publikc/a75407173e80c5bfba9c9dc3f22b278be12bbda2/src/assets/img/icon.png" width="25" alt="Publikc Icon"/>
+            <h2>5. Publ1kc</h2>
+        </div>
+        <p>P4g3: <a href="https://github.com/skywalk1411/publikc">https://github.com/skywalk1411/publikc</a></p>
+        <p>4u7h0r: 5kyw4lk</p>
+    </div>
+
+    <script>
+        setInterval(() => {
+            const boxes = document.querySelectorAll('.box');
+            const randomBox = boxes[Math.floor(Math.random() * boxes.length)];
+            randomBox.style.transform = `skewX(${Math.random() * 4 - 2}deg) rotate(${Math.random() * 2 - 1}deg)`;
+            setTimeout(() => {
+                randomBox.style.transform = 'skewX(-1deg)';
+            }, 100);
+        }, 1000 + Math.random() * 2000);
+    </script>
+</body>
+</html>
