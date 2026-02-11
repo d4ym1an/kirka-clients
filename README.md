@@ -3,8 +3,8 @@
 
 **The list also isn't from best to worse**
 
-# 1. <img src="https://share.google/images/EMymXcLoPejrHli6I" width="25"/> Offical Client 
-Page: <https://client.kirka.com>
+# 1. <img src="https://client.kirka.io/static/KirkaClient.png" width="25"/> Offical Client 
+Page: <https://client.kirka.io>
 
 Author: xip
 
