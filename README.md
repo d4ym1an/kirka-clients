@@ -6,7 +6,7 @@
 # 1. <img src="https://client.kirka.io/static/KirkaClient.png" width="25"/> Offical Client 
 Page: <https://client.kirka.io>
 
-Author: xip
+Author: AwsomeSam
 
 # 2. <img src="https://raw.githubusercontent.com/42infi/juice-client/389288c611593fa529dbfcae3b224ed9800a8b2f/src/assets/img/icon.png" width="25"/> CokeClient 
 Page: <https://github.com/42infi/juice-client>
