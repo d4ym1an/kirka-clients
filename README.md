@@ -39,6 +39,6 @@ Page <https://github.com/imnotkoolkid/OBSIDIAN-CLIENT-preview/releases/tag/v1.0.
 Author: IMNOTKOOLKID
 
 # 8. <img src="https://www.smudgy.store/uploads/icon.png" width="25"/> Smudgy
-Page <https://www.smudgy.store/client>
+Page <https://www.smudgy.store/kirka/client>
 
 Author: Akuma
