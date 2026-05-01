@@ -32,3 +32,13 @@ Author: guap
 Page: <https://github.com/skywalk1411/publikc>
 
 Author: skywalk
+
+# 7. <img src="https://raw.githubusercontent.com/imnotkoolkid/OBSIDIAN-CLIENT-preview/refs/heads/main/assets/Obsidian%20Client.ico" width="25"/> Obsidian
+Page <https://github.com/imnotkoolkid/OBSIDIAN-CLIENT-preview/releases/tag/v1.0.0-beta.1>
+
+Author: IMNOTKOOLKID
+
+# 8. <img src="https://www.smudgy.store/uploads/icon.png" width="25"/> Smudgy
+Page <https://www.smudgy.store/mobile/client>
+
+Author: Akuma
