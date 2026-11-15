@@ -33,12 +33,7 @@ Page: <https://github.com/skywalk1411/publikc>
 
 Author: skywalk
 
-# 7. <img src="https://cdn.glitch.global/56a9b933-fe47-40e7-9c50-9d255f3f9e2b/CompressJPEG.Online_img(512x512).png?v=1750274132729" width="25"/> FaintClient
-Page: <https://faintclient.xyz/>
-
-Author: guap
-
-# 8. <img src="https://raw.githubusercontent.com/42infi/juice-client/389288c611593fa529dbfcae3b224ed9800a8b2f/src/assets/img/icon.png" width="25"/> CokeClient 
+# 7. <img src="https://raw.githubusercontent.com/42infi/juice-client/389288c611593fa529dbfcae3b224ed9800a8b2f/src/assets/img/icon.png" width="25"/> CokeClient 
 Page: <https://github.com/42infi/juice-client>
 
 Author: Infi
