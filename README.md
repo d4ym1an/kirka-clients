@@ -19,7 +19,7 @@ Page <https://www.yxzoi.xyz/Hydrogen>
 Author: Akuma
 
 # 4. <img src="https://raw.githubusercontent.com/imnotkoolkid/celeste-client/refs/heads/main/src/assets/img/icon.png" width="25"/> Celeste Client
-Page <https://github.com/imnotkoolkid/celeste-client/releases/tag/v1.0.6>
+Page <https://github.com/imnotkoolkid/celeste-client/releases>
 
 Author: IMNOTKOOLKID
 
